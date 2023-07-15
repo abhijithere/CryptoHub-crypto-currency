@@ -39,15 +39,15 @@ function Home() {
       </div>
     <div className='flex flex-col justify-center items-center mt-14 font-poppin '>
       <h className="mt-10 text-white mb-10 text-4xl max-[510px]:text-3xl max-[400px]:text-2xl">Earn your <span className='text-teal-600 text-4xl max-[510px]:text-3xl max-[400px]:text-2xl'>daily reawords</span></h>
-      <div className='grid grid-cols-5 max-[950px]:grid-cols-3 max-[1200px]:grid-cols-4 place-items-center gap-7 mt-5 max-[700px]:grid-cols-2 max-[510px]:gap-4 max-[400px]:gap-2 max-[400px]:ml-3 max-[360px]:grid-cols-1 '>
+      <div className='grid grid-cols-5 max-[950px]:grid-cols-3 max-[1200px]:grid-cols-4 place-items-center gap-7 mt-5 max-[700px]:grid-cols-2 max-[510px]:gap-4 max-[400px]:gap-2 max-[400px]:ml-3 max-[340px]:grid-cols-1 '>
         {
           myapi.map((i,id)=>{
             return (
-              <div className='aa1 h-52 w-52 max-[510px]:h-44 max-[510px]:w-44 bg-gray-800 rounded-2xl flex flex-col justify-center items-center hover:border-[3px] cursor-pointer  hover:border-teal-400 hover:bg-gray-900'>
-                <img src={i.image} className='h-14 max-[510px]:h-12 '></img>
-                <h1 className='text-white text-xl mt-5'>{i.text1}</h1>
+              <div className='aa1 h-52 w-52 max-[510px]:h-44 max-[510px]:w-44 max-[365px]:w-40 max-[360px]:h-40 bg-gray-800 rounded-2xl flex flex-col justify-center items-center hover:border-[3px] cursor-pointer  hover:border-teal-400 hover:bg-gray-900'>
+                <img src={i.image} className='h-14 max-[510px]:h-12 max-[365px]:h-10'></img>
+                <h1 className='text-white text-xl mt-5 max-[365px]:mt-3'>{i.text1}</h1>
                 <h2 className='text-sm flex gap-2 text-white mb-2'>APR  <span className='text-teal-500'>{i.text2}</span></h2>
-                <div className='aa2 h-8 w-8  bg-gray-700 rounded-full mt-1 flex justify-center items-center'><img src="./img/right-arrow.png" className='h-[9px]'></img></div>
+                <div className='aa2 h-8 w-8 max-[365px]:h-7 max-[365px]:w-7  bg-gray-700 rounded-full mt-1 flex justify-center items-center'><img src="./img/right-arrow.png" className='h-[9px]'></img></div>
 
               </div>
             )
