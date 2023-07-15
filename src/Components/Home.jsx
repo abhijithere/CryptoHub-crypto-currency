@@ -6,7 +6,7 @@ import Footer from './Footer'
 function Home() {
   return (
     <>
-    <div className='dark:bg-gray-900 h-full    max-[1400px]:w-[100%] relative'>
+    <div className='dark:bg-gray-900 h-full    max-[1400px]:w-[100%] relative overflow-hidden'>
       <div className='flex h-auto   justify-center items-center min-[950px]:h-screen  dark:bg-gray-900 font-poppin ml-20 max-[1200px]:ml-24 max-[950px]:ml-0'>
         <div className='flex gap-8 max-[950px]:flex-col justify-center items-center mt-28 max-[1400px]:gap-1 max-[950px]:gap-8 '>
         <div className=' flex flex-col  max-[510px]:w-[90%]'>
