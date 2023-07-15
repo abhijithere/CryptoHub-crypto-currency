@@ -1,0 +1,26 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.scrollmy::-webkit-scrollbar {
+    display: none;
+  }
+  .alfa::-webkit-scrollbar {
+    display: none;
+  }
+
+.aa1:hover .aa2{
+    transition: .5s;
+    background-color: rgb(20 184 166 )
+}
+
+    .axx{
+      color:  #14b8a577  ;
+    }
+  
